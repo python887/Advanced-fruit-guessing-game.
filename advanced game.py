@@ -48,7 +48,7 @@ while True:
     play_again = input("Do you want to play again? (yes/no): ").strip().lower()
     if play_again == "yes":
         print("Great! Let's play again!")
-        break
+        
     elif play_again == "no":
         print("Thank you for playing! Goodbye!")
         exit() 
